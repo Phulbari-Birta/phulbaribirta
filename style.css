@@ -134,12 +134,29 @@ body{
 
 
 
+.fa{
+    padding: 20px;
+    height: 50px;
+    width: 65px;
+    background-color: rgb(126, 51, 248);
+    color: white;
+    border-radius: 50%;;
+    text-align: center;
+}
 
 
+.fa:hover{
+    background-color: rgb(157, 200, 248);
+    color: blue;
+}
 
+.social-media .row{
+    margin: 10px;
+}
 
-
-
+.social-media .col{
+    margin: 10px;
+}
 
 
 
