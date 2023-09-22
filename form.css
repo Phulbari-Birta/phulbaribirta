@@ -1,0 +1,86 @@
+body{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+/*Form CSS*/
+.form-section{
+    width:500px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    border:2px rgb(172, 172, 135);
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+
+  .registration-page{
+    width:500px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    border:2px rgb(172, 172, 135);
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  
+  label{
+    width:140px;
+    margin-top:10px;
+    text-align: left;
+  }
+  
+  input{
+    width: 200px;
+    margin-top: 10px;
+  }
+  
+  button{
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  select{
+    margin-top: 10px;
+    width: 200px;
+  }
+  
+  .btn{
+    text-align:center;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  
+  .first-items{
+    float: left;
+    padding: none;
+    margin: none;
+  }
+  
+  .first-items .col{
+    float: left;
+    display: inline;
+  }
+  
+  select #items{
+    float: left;
+  }
+
+  .customer-section{
+    width:500px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    border:2px rgb(172, 172, 135);
+    background-color: antiquewhite;
+    padding: 20px;
+  }

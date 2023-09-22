@@ -5,8 +5,11 @@
     </header>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="style.css">
     <style>
+      body{
+        background-color: blueviolet;
+      }
         .fa {
   padding: 20px;
   font-size: 30px;
@@ -126,73 +129,80 @@
   color: white;
 }
     </style>
+    <link rel="stylesheet" href="form.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
-    <body>
-        <blockquote style="padding: 15px;">
-            <top-header style="padding-top:20px; text-align: center;" >
-                <div style="float: left;">
-                    <img src="logos.png" alt="logo" style="height:90px; width: 120px;" >  
+    <body style="background-color: blueviolet;">
+      <blockquote class="flex-container" style="padding: 10px;" ></blockquote>
+    
+        <top-header class="top-header-section" style="padding-top:20px; text-align: center;" >
+            <div style="float: left;">
+                <img src="logos.png" alt="logo" style="height:90px; width: 120px;" >  
+            </div>
+            <div style="text-align: center; padding-top: 20;">
+                <H1 style="color: rgb(253, 249, 253); font-style:bold;">PHULBARI BIRTA DUDHA SANKALAN KENDAR</H1>
+                <P style="color: rgb(253, 249, 253);">FOR HEALTHY LIFE</P>
+            </div>
+    
+        </top-header>
+        <hr>
+        <nab-bar>
+            <nav class="navbar navbar-expand-lg navbar-light">
+               
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active"  href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active"  href="blog.html">Blog</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                      </li>
+    
+                      <li class="nav-item">
+                        <a class="nav-link active" href="form.html">Collection Form</a>
+                      </li>
+    
+                      <li class="nav-item">
+                        <a class="nav-link active" href="customer.html">Sales FOrm</a>
+                      </li>
+                    
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
-                <div style="text-align: center; padding-top: 20;">
-                    <H1 style="color: rgb(255, 187, 0); font-style:bold;">PHULBARI BIRTA DUDHA SANKALAN KENDAR</H1>
-                    <P style="color: blue;">HEALTHY LIFE</P>
-                </div>
-        
-            </top-header>
-            <hr>
-            <nab-bar>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                   
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Company
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Phulbari Birta Dhuwani</a></li>
-                              <li><a class="dropdown-item" href="#">Phulbari Birta Dudha sankalan</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Phulbari Birta krishi firm</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link " href="contact.html">Contact</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                      </div>
-                    </div>
-                  </nav>
-            </nab-bar>
+              </nav>
+        </nab-bar>
+
+
             <div>
                 <h1>ABOUT-US</h1>
 
             </div>
             <footer>
-                <h2>Intrudction </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eaque obcaecati molestiae doloribus, corporis tempora 
-                    voluptates delectus alias autem ut libero voluptate fugit quisquam nobis, nostrum cumque consectetur unde sapiente?</p>
-                <!-- Add font awesome icons -->
-                <a href="facebook.com" class="fa fa-facebook"></a>
-                <a href="twitter.com" class="fa fa-twitter"></a>
-                <a href="google.com" class="fa fa-google"></a>
-                <a href="linkin.com" class="fa fa-linkedin"></a>
-                <a href="Youtube.com" class="fa fa-youtube"></a>
-
+              <br><br><hr>
+              <div class="footer">
+                <div class="row">
+                  <div class="col col-sm-8">
+                    Copy Right &copy 2023 <br>
+                    All Right Reserve Phulbari Birta
+                  </div>
+                  <div class="col">Design By:Ganesh Bajgain <br><a href="ganeshbajgain.com.np" target="_blank"></a></div>
+                </div>
+              </div><hr>
+    
             </footer>
         </blockquote>
     </body>
