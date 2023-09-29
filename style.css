@@ -3,9 +3,16 @@ body{
     
 }
 
-.top-header-section h1 p{
+.top-header-section >h1{
     color: white;
+    
 }
+
+.top-header-section >p{
+    color: white;
+    
+}
+
 .top-header-section img{
     border-radius: 20px;
 
@@ -16,6 +23,12 @@ body{
     background-color: blueviolet;
     color: white;
 }
+
+.nav-bar{
+    background-color: blueviolet;
+    color: white;
+}
+
 .nav-link {
     color: white;
 }

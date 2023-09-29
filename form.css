@@ -1,7 +1,4 @@
-body{
-    background-color: blueviolet;
-    margin-bottom: 10px;
-}
+
 /*Form CSS*/
 .form-section{
     width:500px;
@@ -29,6 +26,7 @@ body{
     width:140px;
     margin-top:10px;
     text-align: left;
+    text-transform:uppercase;
   }
   
   input{
@@ -83,4 +81,30 @@ body{
     border:2px rgb(172, 172, 135);
     background-color: antiquewhite;
     padding: 20px;
+  }
+
+  .message .success{
+    display: none;
+    position: relative;
+    transition: 3s;
+    animation-duration: 3s;
+  }
+
+  .message .danger{
+    display: none;
+    position: relative;
+    transition: 3s;
+    animation-duration: 3s; 
+  }
+
+  @keyframes button{
+    0%{
+      transform: scale(0.1);
+    }
+    50%{
+      transform: scale(0.5);
+    }
+    100%{
+      transform: scale(1);
+    }
   }

@@ -10,6 +10,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="http://nyplintranet-training.appspot.com/css/themes/nypl/main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P2PXE62MP"></script>
 <script>
@@ -20,7 +22,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   gtag('config', 'G-7P2PXE62MP');
 </script>
 
-<body>
+<body style="background-color: blueviolet;">
 <blockquote class="flex-container" style="padding: 10px;" >
     <top-header class="top-header-section" style="padding-top:20px; text-align: center;" >
         <div style="float: left;">
@@ -33,42 +35,49 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     </top-header>
     <hr>
-    <nab-bar>
-        <nav class="navbar navbar-expand-lg navbar-light">
-           
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active"  href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active"  href="blog.html">Blog</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active" href="form.html">Collection Form</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active" href="customer.html">Sales FOrm</a>
-                  </li>
-                
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </nab-bar>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Phulbari Birta Dhuwani Sewa</a></li>
+                <li><a class="dropdown-item" href="#">Phulbari Birta Dhudha Sankalan Kendar</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Hem Raj Krishi Firm</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="form.html" tabindex="-1" aria-disabled="true">Collection Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="customer.html" tabindex="-1" aria-disabled="true">Sales Entry</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
    
 
     <!--first Row for Image-->
@@ -130,7 +139,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
     <hr><hr>
 
-    <Second-row>
+    <div class="Second-row">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100">
@@ -169,7 +178,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
               </div>
             </div>
           </div>
-    </Second-row>
+    </div>
     <hr><hr>
     <div class="third-row-section">
       <h3>Image Section</h3><hr>
@@ -363,7 +372,8 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   
 })(jQuery);
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
